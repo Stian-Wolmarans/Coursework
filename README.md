@@ -1,2 +1,2 @@
 # Various Coursework Files
-- Some for submition
+- Some for submission
