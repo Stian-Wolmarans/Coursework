@@ -1,0 +1,1 @@
+This file contains various small projects for submission on https://academy.metacrafters.io/
