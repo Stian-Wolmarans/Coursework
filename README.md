@@ -1,2 +1,2 @@
-# Metacrafters
-For uploading challenges done in metacrafters course
+# Various Coursework
+- Some for submition
