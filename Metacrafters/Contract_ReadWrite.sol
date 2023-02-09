@@ -44,7 +44,7 @@ contract ReadWrite {
         return word;
     }
 
-    function set_word(bytes1 _word) public returns(bytes32) {
+    function set_word(bytes32 _word) public returns(bytes32) {
         word = _word;
         return word;
     } 
