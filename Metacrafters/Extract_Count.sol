@@ -6,13 +6,7 @@ contract Extract_Ether {
 
     //get ether from user and send to contract
     receive () external payable {}
-    address payable public contractAddress = payable(address(this));
-    function receive_Ether () payable public {
-
-        (bool worked, ) = contractAddress.call{value: msg.value}("");
-        require(worked, "Ether could not be received by contract");
-
-    }
+    fallback () external payable {}
     
     //get amount sent
     uint amountSent = msg.value;
