@@ -5,7 +5,9 @@ pragma solidity ^0.8.10;
 //import "filename";
 
 contract ReadWrite {
-
+    
+    //Not sure why they wanted the return for the set methods but included it
+    
     uint num;
     bool logic;
     address location;
