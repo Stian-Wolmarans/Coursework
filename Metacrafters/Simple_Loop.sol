@@ -4,7 +4,7 @@ pragma solidity ^0.8.17;
 
 contract Loops {
 
-    //iterate to 100
+    //iterate to 1000
     function Simple_Loop (uint _input) public pure returns (string memory) {
 
         for (_input; _input <= 1000; _input++){
