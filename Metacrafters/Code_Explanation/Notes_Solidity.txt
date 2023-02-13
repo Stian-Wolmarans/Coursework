@@ -1,4 +1,4 @@
-Notes --> Assement, Code Walk-through
+Notes --> Assessment, Code Walk-through
 
 Simple_Storage.sol
 
