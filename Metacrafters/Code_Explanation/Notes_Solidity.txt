@@ -6,7 +6,7 @@ Simple_Storage.sol
 - Compiler version, up arrow indicates to the compiler to use any version above 0.4.8
 - Unsigned int means that it can only be a positive value in the range of 256 bits
 - Could consider using a smaller value as 256bits is relatively large, which could save gas
-- Noticed that uint8 used more gas than uint, so that tells me that maybe uint is set to a flexible range based on input
+- Noticed that uint8 used more gas than uint, so that tells me that maybe uint is set to a dynamic range based on input
 - Two functions are accessible within the scope of the contract once it is deployed
 - Set function can have its visibility set to public or external
 - Setting it to private or internal wouldn't work in this case as we're calling it externally
@@ -17,11 +17,13 @@ Simple_Storage.sol
 ERC721.sol
 
 - Some key words to go over
-	- Interface  -->
-	- calldata   --> 
-	- mapping    -->
-	- require    -->
-	- msg.sender -->
+	- Interface  --> In solidty an interface is a list of function definitions without implementation, like a class in other languages
+			 Important to note that data types from an interface can be accessed from other contracts
+	- calldata   --> Is an immutable, temp location where functions arguments are stored
+	- mapping    --> Much like a dictionary, with a key value and an associated key pair
+	- require    --> Like an if statement that will revert the transaction if return value is false
+	- msg.sender --> Contains the address of where the call originated from
+	- event      --> 
 	- emit       --> 
 - Make inheritance chart
 - Function explanations
